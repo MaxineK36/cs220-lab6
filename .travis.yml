@@ -6,4 +6,4 @@ compiler:
 script:
  - make clean
  - make all
- - hello
+ - make tests
