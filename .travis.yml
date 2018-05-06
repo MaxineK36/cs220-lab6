@@ -4,4 +4,6 @@ compiler:
  - gcc
 
 script:
- - hello && make tests && make all && make clean
+ - make clean
+ - make all
+ - hello
